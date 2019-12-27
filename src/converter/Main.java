@@ -10,7 +10,7 @@ public class Main {
         boolean xml = false;
         String[] values;
 
-        String value1;
+        String value1;  
         String value2 = " ";
         String value2xml = " ";
         String newWord = in.replaceAll("[^a-zA-Z0-9.]", " ");
