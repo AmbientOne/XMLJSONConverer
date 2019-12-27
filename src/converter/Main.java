@@ -1,14 +1,13 @@
 package converter;
 
-import java.security.spec.RSAOtherPrimeInfo;
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String in = input.nextLine().trim();
-        boolean xml = false, json = false;
+        boolean xml = false;
         String[] values;
 
         String value1;
@@ -33,7 +32,7 @@ public class Main {
 
 
         if(in.startsWith("<")) xml = true;
-        else json = true;
+
 
 
         if(xml) {
